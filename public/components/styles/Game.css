@@ -1,0 +1,30 @@
+#gameContainer {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    border: 4px solid #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: #ffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#gameContainer .gameInfo{
+    background: #2c3e50;
+    color: #ffff;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+#gameContainer canvas {
+    display: block;
+    margin: 0 auto;
+    border-bottom: 2px solid #b5b5b5;
+    image-rendering: pixelated;
+}
+

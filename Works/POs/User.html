@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user management</title>
+    <link rel="stylesheet" href="./Components/Styles/mainStyle.css"/>
+  </head>
+  <body>
+        <div class="Header">
+    <h1 class="Title">Point of Sale</h1>
+    </div>
+    
+    <nav  class="nav">
+       <a href="index.html">Products</a>
+       <a href="Carts.html">Carts</a>
+       <a href="Sale.html">Sale</a>
+       <a href="User.html">User</a>
+    </nav>
+    
+    <div class="SubHeader">
+        <h1 class="SubTitle">User Management</h1>
+    </div>
+    
+    <div class="wrapper">
+      
+      <div class="InputField">
+        <h3>User</h3>
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="Password">Password</label>
+          <input type="Password" id="Password">
+
+          <label for="Access">Access level</label>
+          <select id="Access">
+            <option value="Admin">Admin</option>
+            <option value="Cashier">Cashier</option>
+            <option value="Manager">Manager</option>
+          </select>
+          
+          <label for="Fullname">Fullname</label>
+          <input type="text" id="Fullname">
+          
+          <label for="Status">Status</label>
+          <select id="Status">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+          </select>
+          
+          <input type="button" name="" id="" value="Clear" />
+          <input type="button" name="" id="" value="Submit" />
+</form>
+        
+      </div>
+      
+    </div>
+  </body>
+</html>

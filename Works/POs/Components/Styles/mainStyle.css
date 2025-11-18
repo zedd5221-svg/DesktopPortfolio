@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sans-Serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url("../background.jpg") no-repeat center center / cover;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url("/background.jpg") no-repeat center center / cover;
+  filter: blur(1px);
+  z-index: -1;
+}
+
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 8px;
+  background-color: #5E133243;
+  padding: 10px;
+}
+
+.Title {
+  font-size: 22px;
+  color: #fff;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  padding: 12px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: #ff9800;
+}
+
+
+.SubHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+
+.InputField {
+  display: flex;
+  flex-direction: column;
+  border: solid #444 2px;
+  border-radius: 8px;
+  width: 500px;
+  height: 500px;
+  padding: 15px;
+  color: white;
+  background-color: #2a2a2a;
+}
+
+.InputField h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.InputField form label {
+  margin: 8px 0 4px;
+  font-size: 14px;
+}
+
+.InputField input,
+.InputField select {
+  padding: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #444;
+  color: white;
+}
+
+.InputField input[type="submit"] {
+  background: #ff9800;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.InputField input[type="submit"]:hover {
+  background: #e68900;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: solid #444 2px;
+  border-radius: 8px;
+  width: 500px;
+  height: 500px;
+  padding: 0;
+  background-color: #2a2a2a;
+  overflow-y: auto; /* allow scrolling if table is big */
+}
+
+table {
+  width: 100%;
+  font-size: 13px;
+  background-color: #333;
+  color: white;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  background-color: #444;
+  font-weight: bold;
+  padding: 8px;
+}
+
+td {
+  padding: 6px;
+  border: 1px solid #555;
+}
+
+tr:nth-child(even) {
+  background-color: #3a3a3a;
+}
+
+
+form label {
+  display: block;   /* makes label go on its own line */
+  margin-top: 10px; /* spacing between fields */
+}
+
+form input {
+  display: block;   /* input on new line */
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.Listofproducts {
+  height: 20px;
+}

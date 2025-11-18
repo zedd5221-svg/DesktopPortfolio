@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SarconDesktop</title>
+
+    <link rel="stylesheet" href="/public/components/styles/Main.css">
+</head>
+
+<body class="locked">
+    <div id="LockScreen">
+        <div id="lock-Icon">
+            <img src="/public/components/Images/icons/lock.png" class="lock-image" alt="Lock Icon">
+        </div>
+        <h3 style="color: red;">Sarcon's Desktop Portfolio</h3>
+        <div class="lock-time" id="lockTime">12:00</div>
+        <div class="lock-date" id="lockDate">Monday, January 1</div>
+        <button class="unlock-btn" onclick="unlockScreen()">Log In</button>
+    </div>
+
+    <div id="Desktop">
+        <div class="desktop-icons" id="desktopIcons"></div>
+
+        <div class="taskbar">
+            <button class="start-btn">Start</button>
+            <div class="taskbar-time" id="taskbarTime">12:00 PM</div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="/public/components/scripts/Main.js"></script>
+</body>
+
+</html>

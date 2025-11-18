@@ -1,0 +1,51 @@
+====================================================
+==              SarconDesktop Portfolio            ==
+====================================================
+
+📁 PROJECT NAME:
+   SarconDesktop — Retro Portfolio Website
+
+🖥️ DESCRIPTION:
+   An interactive retro-style web portfolio that mimics
+   a classic computer desktop environment. Each desktop
+   icon opens a draggable and resizable window, allowing
+   users to explore the developer’s profile, works, and
+   contact information.
+
+⚙️ FEATURES:
+   - Retro desktop interface with draggable .exe windows
+   - Functional lock screen with real-time clock and date
+   - Dynamic window system (open, minimize, maximize, close)
+   - Contact form integrated with EmailJS
+   - Responsive layout for desktop and mobile
+   - Taskbar with live time display
+
+💻 TECHNOLOGIES USED:
+   - HTML5
+   - CSS3
+   - JavaScript (ES6)
+   - EmailJS API
+   - Google Fonts (Pixelify Sans)
+   - Custom Icons & Wallpaper Assets
+
+📂 MAIN FILES:
+   - index.html   → Main structure
+   - Main.css     → Styling and layout
+   - Main.js      → Window logic and EmailJS integration
+
+📨 EMAILJS SETUP:
+   1. Initialize EmailJS with your public key:
+      emailjs.init("YOUR_PUBLIC_KEY");
+   2. Use your own service_id and template_id in:
+      emailjs.send("service_id", "template_id", {...});
+
+🚀 HOW IT WORKS:
+   1. User clicks “Log In” to unlock the desktop.
+   2. Clicking desktop icons opens .exe windows.
+   3. Windows can be dragged, maximized, or closed.
+   4. Contact.exe sends messages via EmailJS.
+
+
+====================================================
+==          Developed by Sarcon Ulama ⚡           ==
+====================================================
